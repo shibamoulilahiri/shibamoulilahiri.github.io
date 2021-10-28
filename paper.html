@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<title>Relevant Papers</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body bgcolor="#ffffff" width="750" topmargin="0" leftmargin="0">
+
+<script type="text/javascript">
+
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+
+</script>
+
+<br/><br/><br/>
+<h2 align="center">
+<b>Relevant Papers on CLIR and Other Topics</b>
+</h2>
+
+<ol>
+<li><b>Technical issues of cross-language information retrieval: a review.</b> Kazuaki Kishida. <i>Information Processing and Management (2005).</i><br/><br/>
+This comprehensive article reviews the state of the art in CLIR. Queries and documents are either matched using cognates (no translation) or using query and document translations as well as interlingual techniques like latent semantic indexing (LSI). Translation can be done with Machine Translation (MT), dictionaries or parallel corpora. Parallel corpora help us find out <i>translation probabilities</i> of terms and phrases. We can efficiently extract parallel corpora from the web also.<br/><br/>
+Disambiguation among multiple translation alternatives is an important challenge. There are several techniques for dealing with this problem, viz. use of POS tags, use of parallel corpus, use of co-occurrence statistics in target corpus and use of query expansion techniques. POS tags allow us to match terms based on their parts of speech. Parallel corpus helps align similar terms, possibly under a probabilistic setting. Co-occurrence statistics play a similar role. Finally, query expansion techniques like <i>pre and post-translation feedback</i> help improve precision and recall. An important generalization is the <i>structured query model</i>, where multiple translations are considered as synonyms and then ORed together to form a Boolean query. Some other techniques are <i>bi-directional translation</i> and <i>phrasal translation</i>.<br/><br/>
+The author also discusses document scoring, tokenization issues, stop word lists, stemming, user interface specialty (for interactive CLIR), evaluation techniques and multilingual information retrieval strategies.<br/><br/>
+Finally, an important technique discussed in this paper is <i>pivot language approach</i>, where queries of one language are translated into another using a middle language. <i>Transitive translation</i> and <i>lexical triangulation</i> are key concepts in this case.<br/><br/>
+</li>
+<li><b>Cross-Language Information Retrieval.</b> Daqing He and Jianqiang Wang. <i>Book chapter, Information Retrieval: Searching in the 21st Century (2009).</i> Wiley.<br/><br/>
+This paper starts with the question of why CLIR is necessary and then describes the major approaches and challenges in CLIR. CLIR users need more support to match the effectiveness of monolingual IR. Identifying translation units involves tokenization, stemming, phrase identification and stop word removal. Translations should be applied to phrases first; if that fails, words should be translated. Translation knowledge can be obtained from online and printed dictionaries and parallel corpora. Out-of-vocabulary (OOV) terms may be transliterated, cognate-matched or expanded to include within-vocabulary terms. <i>Document Expansion</i> is an important idea.<br/><br/>
+Authors discuss translation disambiguation, weighting translation alternatives (<i>weighted Boolean model</i>) and using translation probabilities in term weighting. Interactive CLIR is essential for system improvement. Different stages in interactive CLIR have been explained along with <i>user-assisted query translation</i> and document selection. Finally, Cranfield-based CLIR evaluation framework, evaluation of interactive CLIR and current CLIR evaluation frameworks have been discussed.<br/><br/>
+</li>
+<li><b>Indian Language Information Retrieval.</b> Prasenjit Majumder and Mandar Mitra. <i>Book chapter, Guide to OCR for Indic Scripts.</i> Springer.<br/><br/>
+This paper gives a short outline of <i>text filtering</i>, <i>question answering</i>, <i>event detection</i> and <i>event tracking</i>. In Indian language Information Retrieval (ILIR) setting, there are two primary sources of information - online and offline. Online documents are blogs, newspapers and magazines. Offline documents are printed material and CD-ROMs. Research efforts in ILIR include <i>surprise language exercise</i> (SLE). Authors discuss the MIRACLE system developed under SLE and note that indexing based on overlapping character n-grams may be more useful when stemming tools are not available for a language or when the text is erroneous, as in OCR-ed text.<br/><br/>
+Authors discuss information extraction, named entity identification, question answering and topic detection and tracking (TDT) issues in ILIR. Finally, they discuss about the Indian Language Subtrack at CLEF 2007, the CLIA project and the Forum for Information Retrieval Evaluation (FIRE).<br/><br/>
+</li>
+</ol>
+
+
+<br/><br/><br/>
+
+<p align="center">
+<a href="cydar.html">Back to CyDAR Page</a><br/><br/>
+</p>
+
+
+</body>
+</html>

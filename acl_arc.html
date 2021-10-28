@@ -1,0 +1,89 @@
+﻿<!doctype html>
+<html>
+<head>
+<title>Cleaned ACL ARC</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type='text/javascript'>
+function sanity_check()
+{
+    alert("This zip is 96 MB. It will uncompress to 323 MB.");
+    return true;
+}
+function sanity_check_ascii()
+{
+    alert("This zip is 93 MB. It will uncompress to 275 MB.");
+    return true;
+}
+</script>
+</head>
+<body>
+
+<h2 align="center">
+Cleaned ACL ARC
+</h2>
+
+<br/>
+
+<p>
+<a href="http://acl-arc.comp.nus.edu.sg/">ACL Anthology Reference Corpus</a> (ACL ARC) is a collection of 10,920 academic papers from the <a href="http://aclweb.org/anthology//">ACL Anthology</a>. We manually cleaned ACL ARC to remove:
+<br/><br/>
+(a) files that look like not full papers, paper fragments, foreign-language papers (e.g., French), or pure junk.
+<br/>
+(b) headers (title and author information; NOT abstract).
+<br/>
+(c) footers ("References" line and the actual references).
+<br/>
+(d) some bad characters (spurious characters).
+<br/>
+(e) some page numbers (i.e., a single number appearing on a line, with nothing else attached to it).
+<br/>
+(f) significant foreign-language (e.g., French) content in an otherwise English paper.
+<br/><br/><br/>
+The cleaned corpus has 10,628 documents. It is available from the link below. If you use this corpus, please cite the following work:
+</p>
+
+<br/><br/>
+
+<div>
+<pre>
+@inproceedings{bird2008acl,
+  title={{The ACL Anthology Reference Corpus: A Reference Dataset for Bibliographic Research in Computational Linguistics}},
+  author={Bird, Steven and Dale, Robert and Dorr, Bonnie J. and Gibson, Bryan and Joseph, Mark T. and Kan, Min-Yen and Lee, Dongwon and Powley, Brett and Radev, Dragomir R. and Tan, Yee Fan},
+  booktitle={Proc. of the 6th International Conference on Language Resources and Evaluation Conference (LREC’08)},
+  pages={1755--1759},
+  year={2008}}
+</pre>
+<pre>
+@unpublished{LahiriACLARCStyleBrowser,
+      author = {Lahiri, Shibamouli},
+      title = {{ACL ARC Style Browser}},
+      note = &quot;\url{http://ec2-54-186-204-149.us-west-2.compute.amazonaws.com/acl_arc_style_browser/}&quot;,
+      year = 2014}
+</pre>
+</div>
+
+
+<!-- Thanks to https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/ for target="_blank" rel="noopener noreferrer" -->
+<p align="center">
+<a href="https://gigashibu.com/product/cleaned-acl-arc/" target="_blank" rel="noopener noreferrer" onclick="sanity_check()">Link to Dataset</a>
+<br/><br/>
+<sub>We also prepared an ASCII version of the dataset by removing all characters outside the range [1, 254]. This version is <a href="https://gigashibu.com/product/cleaned-acl-arc-dataset-ascii/" target="_blank" rel="noopener noreferrer" onclick="sanity_check_ascii()">here</a>.</sub>
+</p>
+
+<p align="center">This is the only authentic version of the datasets, as of creation. Other versions, if any, are to be deemed non-authentic, even if public. - April 27, 2021.</p>
+
+
+<br/><br/>
+
+
+<p align="center">
+<a href="index.html">Home</a>
+</p>
+
+<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=P7H-ceNDsXxBaDSeoD_XMeMJpaE9hjopX-xgu7YIo54&cl=ffffff&w=a"></script>
+
+</body>
+</html>
+
+
+

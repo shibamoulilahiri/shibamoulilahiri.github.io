@@ -1,0 +1,27 @@
+
+
+---------- Forwarded message ---------
+From: Matthew Scholefield <matthew331199@gmail.com>
+Date: Fri, Aug 17, 2018 at 5:38 PM
+Subject: Gutenberg Dataset
+To: lahiri@umich.edu <lahiri@umich.edu>
+
+
+Hello,
+
+Regarding your Gutenberg dataset, I noticed the following file was unlike the rest and encoded in cp1252 rather than standard utf-8:
+
+Gutenberg/txt/Henry David Thoreau___A Week on the Concord and Merrimack Rivers.txt
+
+I just wanted to let you know I found the dataset very useful, and it might help other people to re-encode that file. Here's a modified zip where I ran the following python code on it:
+
+filename = 'Gutenberg/txt/Henry David Thoreau___A Week on the Concord and Merrimack Rivers.txt'
+with open(filename, 'rb') as f:
+data = f.read().decode('cp1252').encode('utf-8')
+
+with open(filename, 'wb') as f:
+f.write(data)
+
+Thanks,
+Matthew
+
