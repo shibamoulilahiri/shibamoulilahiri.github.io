@@ -1,0 +1,22 @@
+2018-10-23 23:41:20,297	anonymous	/shibu_examples/	example3	START	getDocument	
+2018-10-23 23:41:20,305	anonymous	/shibu_examples/	example3	FINISH	getDocument	
+2018-10-23 23:41:33,295	shibamouli	/shibu_examples/	example3	START	spanSelected	
+2018-10-23 23:41:33,295	shibamouli	/shibu_examples/	example3	FINISH	spanSelected	
+2018-10-23 23:41:36,706	shibamouli	/shibu_examples/	example3	START	createSpan	[[19,21]]	Person	{}	[]	None	None
+2018-10-23 23:41:36,772	shibamouli	/shibu_examples/	example3	FINISH	createSpan	[[19,21]]	Person	{}	[]	None	None
+2018-10-23 23:41:39,185	shibamouli	/shibu_examples/	example3	START	spanSelected	
+2018-10-23 23:41:39,185	shibamouli	/shibu_examples/	example3	FINISH	spanSelected	
+2018-10-23 23:41:43,296	shibamouli	/shibu_examples/	example3	START	createSpan	[[36,44]]	GPE	{}	[]	None	None
+2018-10-23 23:41:43,354	shibamouli	/shibu_examples/	example3	FINISH	createSpan	[[36,44]]	GPE	{}	[]	None	None
+2018-10-23 23:41:45,044	shibamouli	/shibu_examples/	example3	START	spanSelected	
+2018-10-23 23:41:45,044	shibamouli	/shibu_examples/	example3	FINISH	spanSelected	
+2018-10-23 23:41:50,474	shibamouli	/shibu_examples/	example3	START	createSpan	[[51,55]]	GPE	{}	[]	None	None
+2018-10-23 23:41:50,535	shibamouli	/shibu_examples/	example3	FINISH	createSpan	[[51,55]]	GPE	{}	[]	None	None
+2018-10-23 23:41:54,416	shibamouli	/shibu_examples/	example3	START	arcSelected	
+2018-10-23 23:41:54,416	shibamouli	/shibu_examples/	example3	FINISH	arcSelected	
+2018-10-23 23:41:56,153	shibamouli	/shibu_examples/	example3	START	createArc	T1	T2	Located	None	None	None	None
+2018-10-23 23:41:56,217	shibamouli	/shibu_examples/	example3	FINISH	createArc	T1	T2	Located	None	None	None	None
+2018-10-23 23:42:00,366	shibamouli	/shibu_examples/	example3	START	arcSelected	
+2018-10-23 23:42:00,366	shibamouli	/shibu_examples/	example3	FINISH	arcSelected	
+2018-10-23 23:42:03,584	shibamouli	/shibu_examples/	example3	START	createArc	T1	T3	Employment	None	None	None	None
+2018-10-23 23:42:03,648	shibamouli	/shibu_examples/	example3	FINISH	createArc	T1	T3	Employment	None	None	None	None
